@@ -1,0 +1,29 @@
+{
+  "name": "stratz",
+  "version": "1.0.0",
+  "description": "stratz",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev":"nodemon lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titangmz/stratz.git"
+  },
+  "keywords": [
+    "stratz dota dota2 api"
+  ],
+  "author": "Pedram Parsa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/titangmz/stratz/issues"
+  },
+  "homepage": "https://github.com/titangmz/stratz#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
